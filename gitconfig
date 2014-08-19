@@ -1,0 +1,24 @@
+[user]
+  name = Pei Xiong Liu
+  email = peixiong.liu@gmail.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+[core]
+  editor = subl -n -w
+[alias]
+  co = checkout
+  a = add
+  b = branch
+  c = commit
+  d = diff
+  l = log
+  m = merge
+  p = push
+  o = origin
+  s = status
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
